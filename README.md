@@ -9,6 +9,6 @@ Use iframe and more on blooket
 
 ## Credits
 
-* [Blooket cheats Plus](https://github.com/DannyDan0167)
-* [Features](https://github.com/cryptodude3)
-* [CSP bypass](https://github.com/PhilGrayson)
+* [Blooket Cheats Plus](https://github.com/DannyDan0167)
+* [Features - cryptodude3](https://github.com/cryptodude3)
+* [CSP bypass - PhilGrayson](https://github.com/PhilGrayson)
