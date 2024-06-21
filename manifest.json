@@ -1,0 +1,37 @@
+{
+  "name": "Blooket Cheats Plus",
+  "default_locale": "en",
+  "description": "__MSG_extDescription__",
+  "version": "14.0.0",
+  "author": "DannyDan0167",
+  "homepage_url": "https://github.com/DannyDan0167/Blooket-Cheats-Plus-Extension",
+  "manifest_version": 2,
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "http://*/*",
+    "https://*/*",
+    "browsingData",
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Content-Security-Policy headers are enabled",
+    "default_icon": {
+      "16": "images/icon38-off.png"
+    }
+  },
+  "icons": {
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.blooket.com/*"],
+      "js": ["bcp.js"]
+    }
+  ]
+}
